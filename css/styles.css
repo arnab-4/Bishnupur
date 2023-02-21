@@ -169,6 +169,7 @@ video {
   background-color: transparent;
   border: 1px solid #fff;
   transition: var(--transition-300);
+  border-radius: 40px;
 }
 
 .btn.sign-up:hover {
