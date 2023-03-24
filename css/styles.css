@@ -70,6 +70,7 @@ video {
 .container {
   max-width: 114rem;
   margin: 0 auto;
+  padding-bottom: 70px;
 }
 
 .section {
@@ -89,6 +90,7 @@ video {
 @media (max-width: 1200px) {
   .container {
     padding: 0 3rem;
+    padding-bottom: 40px;
   }
 }
 
@@ -191,7 +193,12 @@ video {
 
 @media (max-width: 768px) {
   .btn.sign-up {
-    display: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: var(--transition-300);
+    border-radius: 40px;
   }
 
   .nav-list {
@@ -224,6 +231,12 @@ video {
     color: var(--text-1);
     font-weight: 500;
   }
+  .nav-list .nav-res {
+    font-size: 2rem;
+    padding: 1rem;
+    color: var(--text-1);
+    font-weight: 500;
+  }
 
   .hamburger {
     display: flex;
@@ -246,6 +259,10 @@ video {
 .header .swiper-slide video {
   height: 100vh;
   object-fit: cover;
+}
+.video{
+  max-width: 100%;
+  height: auto;
 }
 
 .header .content {
@@ -274,6 +291,11 @@ video {
   width: 30rem;
   padding: 2rem;
   justify-content: center;
+}
+.nav-res{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
 }
 
 .header .swiper-icon {
@@ -304,6 +326,10 @@ video {
   .header .content h1 {
     font-size: 5rem;
   }
+  .video{
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -327,6 +353,10 @@ video {
   .header .arrows {
     width: 25rem;
     padding: 0.5rem;
+  }
+  .video{
+    max-width: 100%;
+    height: auto;
   }
 }
 
